@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PesonalRegister
 {
-    internal class Register
+    public class Register
     {
         
         public string FörNamn { get; set; }
