@@ -47,7 +47,7 @@
 
             foreach( var anställd in listAnställda )
             {
-                Console.WriteLine($"Anställd förnamn: {anställd.FörNamn} Anställd efernamn: {anställd.EfterNamn} Anställd lön: {anställd.Lön}");
+                Console.WriteLine($"Förnamn: {anställd.FörNamn.ToUpper()} Efernamn: {anställd.EfterNamn.ToUpper()} Lön: {anställd.Lön}");
             }
 
         }
