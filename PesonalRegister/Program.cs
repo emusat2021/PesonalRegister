@@ -8,9 +8,9 @@
             Console.WriteLine("=====================================================");
 
             var listAnställda =  new List<Register>();
-            bool klartMedRegistrering = true;
+            bool registrera = true;
 
-            while( klartMedRegistrering )
+            while(registrera)
             {
                 var registerAnställd = new Register();
 
@@ -39,7 +39,7 @@
 
                 if (fortsätt == "n")
                 {
-                    klartMedRegistrering = false;
+                    registrera = false;
                 }
 
             }
